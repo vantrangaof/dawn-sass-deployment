@@ -4,7 +4,7 @@ This is a test for Sass deployment in Shopify Dawn Theme using Shopify CLI.
 
 ---
 
-## DEPLOY USING LIVE SASS COMPILER
+## 1. DEPLOY USING LIVE SASS COMPILER EXT.
 
 Method: Use Live Sass Compiler ext. to compile and watch Sass
 
@@ -14,7 +14,7 @@ Method: Use Live Sass Compiler ext. to compile and watch Sass
 
 ---
 
-## DEPLOY USING GULP
+## 2. DEPLOY USING GULP
 
 ### Step 1: Create a node project
 
