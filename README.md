@@ -6,7 +6,7 @@
 
 ---
 
-**CREATE USING GULP**
+##CREATE USING GULP
 
 ### Step 2: Install gulp packages
 
@@ -25,6 +25,6 @@ _Do make sure that the node is not included in gitignore_
 
 ---
 
-**CREATE USING SASS COMPILER**
+##CREATE USING SASS COMPILER
 
 **Status**: Successful
