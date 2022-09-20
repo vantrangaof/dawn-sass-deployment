@@ -1,0 +1,27 @@
+{
+  "name": "sass-deployment-dawn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vantrangaof/dawn-sass-deployment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vantrangaof/dawn-sass-deployment/issues"
+  },
+  "homepage": "https://github.com/vantrangaof/dawn-sass-deployment#readme",
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.54.9"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
