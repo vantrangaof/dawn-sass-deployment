@@ -29,4 +29,4 @@ npm install sass
 
 ## CREATE USING SASS COMPILER
 
-**Status**: Successful :joy:
+**Status**: Successful :grin:
