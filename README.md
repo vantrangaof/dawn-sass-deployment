@@ -4,6 +4,8 @@
 
 `npm init`
 
+---
+
 **CREATE USING GULP**
 
 ### Step 2: Install gulp packages
@@ -19,7 +21,10 @@ _Do make sure that the node is not included in gitignore_
 
 ### Step 4: Install gulp sass
 
-Status: Gulp install bash issue (checking...)
+**Status**: Gulp install bash issue (checking...)
+
+---
 
 **CREATE USING SASS COMPILER**
-Status: Successful
+
+**Status**: Successful
