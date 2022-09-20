@@ -6,18 +6,20 @@
 
 ---
 
-##CREATE USING GULP
+## CREATE USING GULP
 
 ### Step 2: Install gulp packages
 
 `npm install gulp`
 
-_Do make sure that the node is not included in gitignore_
+> Do make sure that the node is not included in gitignore
 
 ### Step 3: Install Sass
 
-`npm install node-sass gulp-sass`
-`npm install sass`
+```
+npm install node-sass gulp-sass
+npm install sass
+```
 
 ### Step 4: Install gulp sass
 
@@ -25,6 +27,6 @@ _Do make sure that the node is not included in gitignore_
 
 ---
 
-##CREATE USING SASS COMPILER
+## CREATE USING SASS COMPILER
 
-**Status**: Successful
+**Status**: Successful :joy:
