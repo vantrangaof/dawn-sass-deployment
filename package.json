@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
-    },
+    "test": "echo \"Error: no test specified\" && exit 1;",
+    "watch": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vantrangaof/dawn-sass-deployment.git"
@@ -16,12 +17,13 @@
     "url": "https://github.com/vantrangaof/dawn-sass-deployment/issues"
   },
   "homepage": "https://github.com/vantrangaof/dawn-sass-deployment#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
   "dependencies": {
-    "gulp-sass": "^5.1.0",
+    "gulp-concat": "^2.6.1",
     "node-sass": "^7.0.3",
     "sass": "^1.54.9"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
   }
 }
