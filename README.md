@@ -103,7 +103,7 @@ Update dependencies
 }
 ```
 
-You can also update the command-line interface using `npm i gulp-cli -g`
+You can also update the command-line interface using `npm i gulp-cli -g`</br>
 To check the installation, enter `gulp -v` at the command line
 
 Read more [here](https://www.sitepoint.com/how-to-migrate-to-gulp-4/)
