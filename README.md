@@ -94,7 +94,9 @@ On the command line, update your system variables: `source ~/.profile`
 Read more [here](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory)
 
 **gulp.series doesn't work**
+
 Update your gulp version to at least 4.0.0 or to the latest version.
+
 Update dependencies
 
 ```
@@ -103,7 +105,7 @@ Update dependencies
 }
 ```
 
-You can also update the command-line interface using `npm i gulp-cli -g`</br>
+You can also update the command-line interface using `npm i gulp-cli -g`
 To check the installation, enter `gulp -v` at the command line
 
 Read more [here](https://www.sitepoint.com/how-to-migrate-to-gulp-4/)
