@@ -1,6 +1,8 @@
 # Sass Deployment with Shopify CLI
 
 This is a test for Sass deployment in Shopify Dawn Theme using Shopify CLI.
+Test theme: Dawn.
+Store: Trangvip
 
 ---
 
@@ -69,9 +71,8 @@ Run command: `gulp sass` to compile and `gulp watch` to monitor
 
 **gulp: command not found**
 
-To solve the error "gulp: command not found", install the gulp-cli package globally by running `npm install -g gulp-cli` and restart your terminal
-Check if the directory is correct
-`npm root -g`
+To solve the error "gulp: command not found", install the gulp-cli package globally by running `npm install -g gulp-cli` and restart your terminal.
+Check if the directory is correct with this command `npm root -g`
 
 - On PC, it might be `C:\Users\YOURNAME\AppData\Roaming\npm\node_modules`
 - On Mac, it might be `/usr/local/lib/node_modules/`
@@ -82,18 +83,18 @@ Read more [here](https://coder-coder.com/fix-gulp-command-not-found-error/)
 
 **Error: EACCES: permission denied, access '/usr/local/lib/node_modules'**
 
-`mkdir ~/.npm-global`
-Configure npm to use the new directory path:
-`npm config set prefix '~/.npm-global'`
-In your preferred text editor, open or create the ~/.profile file and add this line:
-`export PATH=~/.npm-global/bin:$PATH`
-On the command line, update your system variables:
-`source ~/.profile`
+Create a new directory `mkdir ~/.npm-global`
 
-Read More: [link](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory)
+Configure npm to use the new directory path: `npm config set prefix '~/.npm-global'`
+
+In your preferred text editor, open or create the ~/.profile file and add this line: `export PATH=~/.npm-global/bin:$PATH`
+
+On the command line, update your system variables: `source ~/.profile`
+
+Read more [here](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory)
 
 **gulp.series doesn't work**
-Update your gulp version to at least 4.0.0 or to the latest version
+Update your gulp version to at least 4.0.0 or to the latest version.
 Update dependencies
 
 ```
